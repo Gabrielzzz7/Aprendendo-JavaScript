@@ -38,3 +38,7 @@ if (forma_de_pagamento === "a") {
   valor = ((110 * preço) / 100) / n_parcelas;
   console.log("O valor pago deverá ser n parcelas de: R$", valor.toFixed(2))
 }
+
+const preço = 100;
+
+const forma_de_pagamento = "d"

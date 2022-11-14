@@ -21,8 +21,8 @@ Algoritmo
 
 */
 
-let peso = 150;
-let altura = 1.95;
+let peso = 70;
+let altura = 1.72;
 
 const IMC = (peso) / Math.pow(altura, 2);
 
@@ -39,3 +39,15 @@ if (IMC < 18.5) {
 } else {
   console.log("Você está com Obesidade grave");
 }
+
+
+/*
+Exercício Axsel
+
+let kg = 50;
+let numero_de_repetições = 15;
+
+const UMRM = (kg / (1.0278 - (0.0278 * numero_de_repetições)));
+
+console.log("Seu 1RM é de: ", UMRM.toFixed(2));
+*/
